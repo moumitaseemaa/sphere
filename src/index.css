@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.title{
+  @apply font-['Montserrat'] font-semibold text-[13px] text-[#8E8E8E] tracking-[1.30px] leading-[16.90px]
+}
+
+.subHeading{
+  @apply font-['Montserrat'] font-extrabold text-[22px] text-[#000000] leading-[35.20px]
+}
+
+.para{
+  @apply font-['Montserrat'] font-normal text-lg text-[#000000] leading-[27.90px]
+}
+
+.subPara{
+  @apply font-['Montserrat'] font-medium text-base text-[#2C2C2C] leading-[20.80px]
+}
+
+.btn{
+  @apply font-['Montserrat'] font-bold text-[15px] leading-[19.50px] rounded-[8px] 
+}
+
+
