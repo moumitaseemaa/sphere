@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <Container>
       <Flex className={"justify-between items-center py-12.5"}>
-        <Link to={"#"}>
+        <Link to={"#"} className="mb-3.5">
           <img src="images/logo.png" alt="logo.png" />
         </Link>
         <ul className=" flex items-center gap-x-[57px]">

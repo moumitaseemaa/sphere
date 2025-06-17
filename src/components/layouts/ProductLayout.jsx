@@ -1,4 +1,4 @@
-import { FaStar } from "react-icons/fa";
+import { ImStarFull } from "react-icons/im";
 import { IoMdCart } from "react-icons/io";
 import Flex from "./Flex";
 import HeartIcon from "../../icons/HeartIcon";
@@ -53,12 +53,12 @@ const ProductLayout = ({
         leo nunc.
       </p>
       <Flex className={"items-center gap-x-[10px]"}>
-        <div className="flex items-center gap-x-0.5 text-[#04A904] text-2xl">
-          <FaStar />
-          <FaStar />
-          <FaStar />
-          <FaStar />
-          <FaStar />
+        <div className="flex items-center gap-x-0.5 text-[#04A904] text-xl">
+          <ImStarFull />
+          <ImStarFull />
+          <ImStarFull />
+          <ImStarFull />
+          <ImStarFull />
         </div>
         <span className="para">({ratingAmount})</span>
       </Flex>

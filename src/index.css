@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .title{
-  @apply font-['Montserrat'] font-semibold text-[13px] text-[#8E8E8E] tracking-[1.30px] leading-[16.90px]
+  @apply font-['Montserrat'] font-semibold text-[13px] text-[#8E8E8E] tracking-[1.30px] leading-[16.90px] uppercase
 }
 
 .subHeading{
