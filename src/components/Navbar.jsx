@@ -19,8 +19,8 @@ const Navbar = () => {
           ))}
         </ul>
         <div className="flex items-center">
-          <button className="title mr-20">LOGIN</button>
-          <button className="flex items-center gap-x-[10px] bg-[#000000] py-4 px-[38px] rounded-[52px] text-white font-['Montserrat'] font-medium text-base leading-[20.80px] ">
+          <button className="title mr-20 cursor-pointer">LOGIN</button>
+          <button className="flex items-center gap-x-[10px] bg-[#000000] py-4 px-[38px] rounded-[52px] text-white font-['Montserrat'] font-medium text-base leading-[20.80px] cursor-pointer">
             Sign Up Now
             <span>
               <FaArrowRight className="text-[white]" />
